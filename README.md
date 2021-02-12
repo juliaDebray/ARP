@@ -1,6 +1,6 @@
 Ceci est le site internet de l'ARD: Association des Randonneurs de Provence.
 
-norme de nomage des commits :
+Norme de nomage des commits :
 
 - FT  : nouvelle fonctionnalité 
 - OPTI : optimisation du code
