@@ -8,11 +8,12 @@ body {
 
 }
 
-/* HEADER - Mobile - start */
+/* HEADER - start */
+    /* Mobile */
 
 .home {
     background-image: url("../images/20200928_145436.jpg");
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -28,5 +29,32 @@ body {
     text-shadow: 0 0 5px black;
 }
 
-/* HEADER - Mobile - end */
+/* Tablet */
 
+@media screen and (min-width: 426px) {
+    .home {
+        height: 250px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 768px) {
+    .home {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .home {
+        height: 600px;
+    }
+}
+
+/* HEADER - Mobile - end */
