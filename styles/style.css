@@ -44,7 +44,7 @@ ul {
 }
 
 .home-presentation {
-    background-color: rgb(33,33,33,0.4);
+    background-color: rgba(22, 22, 22, 0.7);
     border-radius: 3px;
     padding: 8px;
     margin: 20px 16px;
@@ -70,6 +70,7 @@ ul {
         background-position: bottom -100px right 0px;
     }
     
+/* Desktop */    
 
 @media screen and (min-width: 1200px) {
     .home {
