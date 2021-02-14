@@ -8,12 +8,18 @@ body {
 
 }
 
+abbr {
+    border: none;
+    text-decoration: none;
+
+}
+
 /* HEADER - start */
     /* Mobile */
 
 .home {
     background-image: url("../images/20200928_145436.jpg");
-    background-position: top;
+    background-position: top 0px right -200px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -33,28 +39,27 @@ body {
 
 @media screen and (min-width: 426px) {
     .home {
-        height: 250px;
+        background-position: top;
+
+    }
+    .home-presentation {
+        max-width: 60%;
     }
 }
 
-/* Desktop */
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .home {
-        height: 300px;
-    }
-}
 
-@media screen and (min-width: 1440px) {
-    .home {
-        height: 400px;
+        background-position: bottom -100px right 0px;
     }
-}
+    
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1200px) {
     .home {
-        height: 600px;
+
+        background-position: bottom -230px right 0px;
+        }
+
     }
-}
 
 /* HEADER - Mobile - end */
