@@ -8,10 +8,27 @@ body {
 
 }
 
+main {
+    background-color: #e4e4e4;
+}
+
 abbr {
     border: none;
     text-decoration: none;
 
+}
+
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
 }
 
 /* HEADER - start */
