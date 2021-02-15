@@ -1,7 +1,3 @@
-*box-sizing {
-    box-sizing: border-box;
-}
-
 body {
     color: rgb(0,0,0);
     height: 100vh;
@@ -39,9 +35,8 @@ ul {
 textarea {
     resize: none;
 }
-/* HEADER - start */
-    /* Mobile */
 
+/* HEADER - start */
 .home {
     background-image: url("../images/20200928_145436.jpg");
     background-position: center;
