@@ -18,6 +18,10 @@ abbr {
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 p {
     margin: 0;
@@ -31,6 +35,9 @@ ul {
     padding: 0;
 }
 
+textarea {
+    resize: none;
+}
 /* HEADER - start */
     /* Mobile */
 
