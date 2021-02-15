@@ -188,10 +188,10 @@
     </main>
 
     <footer class="bg-dark text-white" id="contacts">
-        <div class="d-flex flex-column flex-sm-row">
-            <section class="m-2">
+        <div class="container">
+            <section class="row d-flex flex-column p-3 px-md-0">
                 <h2 class="text-center">Formulaire de contact</h2>
-                <form method="POST" action="#">
+                <form class="px-2" method="GET" action="#">
                     <div class="form-group">
                         <label for="subject">Objet</label>
                         <input type="text" id="subject" class="form-control" required> 
@@ -208,21 +208,21 @@
                         <label for="message">Votre message</label>
                         <textarea class="form-control" id="message" name="message" rows="8" required></textarea>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <button type="reset" class="btn btn-danger">Annuler</button>
-                        <button type="submit" class="btn btn-success">Envoyer le message</button>
+                    <div class="d-flex justify-content-center">
+                        <button type="reset" class="btn btn-danger ml-2">Annuler</button>
+                        <button type="submit" class="btn btn-success ml-2">Envoyer le message</button>
                     </div>
                 </form>
             </section>
-            <section class="border-top border-secondary mt-2 pt-2">
-            <h2 class="text-center">Nous écrire :</h2>
-            <adress class="m-3 text-center d-flex flex-column">
-                <p>Les randonneurs de provence</p>
-                <p>36 rue du Moulin au loin</p>
-                <p>84200 CARPENTRAS</p>
-                <a href="tel:00 00 00 00 00">Tél : 00 00 00 00 00</a>
-                <a href="mailto: contact@arp.fr">contact@arp.fr</a>
-            </adress>
+            <section class="row border-top border-secondary py-3 d-flex flex-column">
+                <h2 class="text-center">Nous écrire :</h2>
+                <adress class="text-center d-flex flex-column">
+                    <p>Les randonneurs de provence</p>
+                    <p>36 rue du Moulin au loin</p>
+                    <p>84200 CARPENTRAS</p>
+                    <a href="tel:00 00 00 00 00">Tél : 00 00 00 00 00</a>
+                    <a href="mailto: contact@arp.fr">contact@arp.fr</a>
+                </adress>
             </section>
         </div>
     </footer>
