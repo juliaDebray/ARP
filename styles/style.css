@@ -5,6 +5,7 @@
 body {
     color: rgb(0,0,0);
     height: 100vh;
+    padding-top: 56px;
 
 }
 
@@ -43,7 +44,7 @@ textarea {
 
 .home {
     background-image: url("../images/20200928_145436.jpg");
-    background-position: top 0px right -200px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -53,38 +54,10 @@ textarea {
 .home-presentation {
     background-color: rgba(22, 22, 22, 0.7);
     border-radius: 3px;
-    padding: 8px;
-    margin: 20px 16px;
     color: white; 
+    margin: 20px 16px;
+    max-width: 60%;
+    padding: 8px;
     text-shadow: 0 0 5px black;
 }
-
-/* Tablet */
-
-@media screen and (min-width: 426px) {
-    .home {
-        background-position: top;
-
-    }
-    .home-presentation {
-        max-width: 60%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .home {
-
-        background-position: bottom -100px right 0px;
-    }
-    
-/* Desktop */    
-
-@media screen and (min-width: 1200px) {
-    .home {
-
-        background-position: bottom -230px right 0px;
-        }
-
-    }
-
-/* HEADER - Mobile - end */
+/* HEADER - end */
