@@ -54,23 +54,47 @@
 
         <section class="d-flex flex-column align-items-center">
 
-            <h2>Nos prochaines sorties</h2>
-
             <div class="container">
+
+                <div class="row justify-content-center text-justify">
+                    <article class="col-sm card m-2 m-sm-2 d-flex flex-md-row article article-information">
+                        <div class="card-body">
+                            <h3 class="card-title border-bottom border-secondary">Informations :</h3>
+                            <p class="font-weight-bold">Amis randonneurs, avant de valider votre inscription à une activité, vérifiez bien :</p>
+                            <ul class="list-group list-group-flush text-left">
+                                <li class="list-group-item"><p>Que votre condition physique est en concordance avec le niveau de l’activité.</p></li>
+                                <li class="list-group-item"><p>Que vous possédez l’équipement nécessaire au départ.</p></li>
+                                <li class="list-group-item"><p>De respecter la chartre du randonneur.</p></li>
+                                <li class="list-group-item"><p>De nous prévenir en cas de désistement.</p></li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title border-bottom border-secondary">Niveaux :</h3>
+                            <ul>
+                            <li><p><span class="text-success font-weight-bold">FACILE</span> : dénivelé de 100 à 300 mètres</p></li>
+                            <li><p><span class="text-warning font-weight-bold">MOYEN</span> : dénivelé de 300 à 600 mètres</p></li>
+                            <li><p><span class="text-danger font-weight-bold">SOUTENU</span> : dénivelé de 500 à 800 mètres</p></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <h2>Nos prochaines sorties :</h2>
+
                 <div class="row justify-content-center">
-                    <article class="col-sm card mb-2 m-sm-2" style="width: 95%; padding:0; box-shadow: 0 2px 5px #ccc;">
-                        <img src="./images/colorado_provençale.jpg" class="card-img-top " alt="image du Colorado Provençal">
+                    <article class="col-sm card mb-2 m-sm-2 article">
+                        <img src="./images/colorado_provencale.jpg" class="card-img-top " alt="image du Colorado Provençal">
                         <div class="card-body">
                             <h3 class="card-title">Le Colorado Provençal</h3>
                             <ul>
                                 <li>Date : 22 février 2020</li>
                                 <li>Durée : 4H</li>
-                                <li>Difficulté: moyen</li>
+                                <li>Niveau: <span class="text-warning font-weight-bold">moyen</span></li>
                                 <li>Départ : Rustrel à 10H</li>
-                                <li>Places restantes : 3 / 9</li>
+                                <li>Participants : 6 / 9</li>
                             </ul>
                 
-                            <div class="progress" style="margin: 5% 0 5% 0">
+                            <div class="progress">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -78,18 +102,18 @@
                         </div>
                     </article>
             
-                    <article class="col-sm card mb-2 m-sm-2" style="width: 95%; padding:0; box-shadow: 0 2px 5px #ccc;">
+                    <article class="col-sm card mb-2 m-sm-2 article">
                         <img src="./images/mont_ventoux.jpg" class="card-img-top" alt="image du Mont Ventoux">
                         <div class="card-body">
                             <h3 class="card-title">Le Mont Ventoux</h3>
                             <ul>
                                 <li>Date : 25 février 2021</li>
                                 <li>Durée : 6H</li>
-                                <li>Difficulté : difficile</li>
+                                <li>Niveau : <span class="text-danger font-weight-bold">soutenu</span></li>
                                 <li>Départ : Mont Serein à 10H</li>
-                                <li>Places restantes : 7 / 9</li>
+                                <li>Participants : 2 / 9</li>
                             </ul>
-                            <div class="progress" style="margin: 5% 0 5% 0">
+                            <div class="progress">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -97,44 +121,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="row justify-content-center">
-                    <article class="col-sm card mb-2 m-sm-2" style="width: 95%; padding:0; box-shadow: 0 2px 5px #ccc;">
-                        <img src="./images/canal_de_carpentras.jpg" class="card-img-top" alt="image du canal de Carpentras">
-                        <div class="card-body">
-                            <h3 class="card-title">Le Canal de Carpentras</h3>
-                            <ul>
-                                <li>Date : 27 février 2021</li>
-                                <li>Durée : 3H</li>
-                                <li>Difficulté : facile</li>
-                                <li>Départ : Carpentras à 10H</li>
-                                <li>Places restantes : 6 / 9</li>
-                            </ul>
-                            <div class="progress" style="margin: 5% 0 5% 0">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="50"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <button type="button" class="home-button btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
-                        </div>
-                    </article>
-                    <article class="col-sm card mb-2 m-sm-2" style="width: 95%; padding:0; box-shadow: 0 2px 5px #ccc;">
-                        <img src="./images/gorges_de_la_nesque2.jpg" class="card-img-top" alt="image des Gorgess de la Nesque">
-                        <div class="card-body">
-                            <h3 class="card-title">Les Gorges de la Nesque</h3>
-                            <ul>
-                                <li>Date : 1er mars 2021</li>
-                                <li>Durée : 4H30</li>
-                                <li>Difficulté : difficile</li>
-                                <li>Départ : Monieux à 10H</li>
-                                <li>Places restantes : 9 / 9</li>
-                            </ul>
-                            <div class="progress" style="margin: 5% 0 5% 0">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <button type="button" class="home-button btn btn-block btn-danger" disabled data-toggle="modal" data-target="#contactModal">Sortie complète</button>
-                        </div>
-                    </article>
-                </div>
+
             </div>
 
         </section>
