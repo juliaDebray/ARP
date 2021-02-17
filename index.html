@@ -15,7 +15,7 @@
     <h1 class="d-none">Association des Randonneurs de Provence</h1>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
             <abbr title="Association des Randonneurs de Provence" class="d-sm-none">A.R.P.</abbr>
             <span class="d-none d-sm-inline">Association des Randonneurs de Provence</span>
         </a>
@@ -43,88 +43,81 @@
     <header class="home" id="presentation">
         <article class="home-presentation d-flex flex-column align-items-md-center justify-conent-md-baseline">
             <p>Nous sommes une association de randonnée pédestre affiliée à la FFRandonnée et nous organisons des randonnées conviviales de tous niveaux !</p>
-            <p>Amateurs ou confirmés, vous trouverez votre bonheur dans notre catalogue de randonnées. Venez découvrir
-                notre belle
-                région !</p>
+            <p>Amateurs ou confirmés, vous trouverez votre bonheur dans notre catalogue de randonnées. Venez découvrir notre belle région !</p>
             <button type="button" class="home-button btn btn-info">Catalogue d'activités</button>
         </article>    
     </header>
 
-    <main>
+    <main class="container">
 
-        <section class="d-flex flex-column align-items-center">
-
-            <div class="container">
-
-                <div class="row justify-content-center text-justify">
-                    <article class="col-sm card m-2 m-sm-2 d-flex flex-md-row article article-information">
-                        <div class="card-body">
-                            <h3 class="card-title border-bottom border-secondary">Informations :</h3>
-                            <p class="font-weight-bold">Amis randonneurs, avant de valider votre inscription à une activité, vérifiez bien :</p>
-                            <ul class="list-group list-group-flush text-left">
-                                <li class="list-group-item"><p>Que votre condition physique est en concordance avec le niveau de l’activité.</p></li>
-                                <li class="list-group-item"><p>Que vous possédez l’équipement nécessaire au départ.</p></li>
-                                <li class="list-group-item"><p>De respecter la chartre du randonneur.</p></li>
-                                <li class="list-group-item"><p>De nous prévenir en cas de désistement.</p></li>
-                            </ul>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title border-bottom border-secondary">Niveaux :</h3>
-                            <ul>
-                            <li><p><span class="text-success font-weight-bold">FACILE</span> : dénivelé de 100 à 300 mètres</p></li>
-                            <li><p><span class="text-warning font-weight-bold">MOYEN</span> : dénivelé de 300 à 600 mètres</p></li>
-                            <li><p><span class="text-danger font-weight-bold">SOUTENU</span> : dénivelé de 500 à 800 mètres</p></li>
-                            </ul>
-                        </div>
-                    </article>
+        <div class="row text-justify">
+            <article class="article article-information col-sm card m-2 m-sm-2 d-flex flex-md-row p-0">
+                <div class="card-body">
+                    <h3 class="card-title border-bottom border-secondary">Informations :</h3>
+                    <p class="font-weight-bold">Amis randonneurs, avant de valider votre inscription à une activité, vérifiez bien :</p>
+                    <ul class="list-group list-group-flush text-left">
+                        <li class="list-group-item">Que votre condition physique est en concordance avec le niveau de l’activité.</li>
+                        <li class="list-group-item">Que vous possédez l’équipement nécessaire au départ.</li>
+                        <li class="list-group-item">De respecter la chartre du randonneur.</li>
+                        <li class="list-group-item">De nous prévenir en cas de désistement.</li>
+                    </ul>
                 </div>
+                <div class="card-body">
+                    <h3 class="card-title border-bottom border-secondary">Niveaux :</h3>
+                    <ul>
+                        <li><span class="text-success font-weight-bold">FACILE</span> : dénivelé de 100 à 300 mètres</li>
+                        <li><span class="text-warning font-weight-bold">MOYEN</span> : dénivelé de 300 à 600 mètres</li>
+                        <li><span class="text-danger font-weight-bold">SOUTENU</span> : dénivelé de 500 à 800 mètres</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
 
-                <h2>Nos prochaines sorties :</h2>
+        <h2>Nos prochaines sorties</h2>
 
-                <div class="row justify-content-center">
-                    <article class="col-sm card mb-2 m-sm-2 article">
-                        <img src="./images/colorado_provencale.jpg" class="card-img-top " alt="image du Colorado Provençal">
-                        <div class="card-body">
-                            <h3 class="card-title">Le Colorado Provençal</h3>
-                            <ul>
-                                <li>Date : 22 février 2020</li>
-                                <li>Durée : 4H</li>
-                                <li>Niveau: <span class="text-warning font-weight-bold">moyen</span></li>
-                                <li>Départ : Rustrel à 10H</li>
-                                <li>Participants : 6 / 9</li>
-                            </ul>
-                
-                            <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="50"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <button type="button" class="home-button btn btn-block  btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
-                        </div>
-                    </article>
+        <div class="row row-cols-1 row-cols-md-2 mb-md-3">
+            <div class="col mb-3 mb-md-0">
+                <article class="article card">
+                    <img src="./images/colorado_provencale.jpg" class="card-img-top" alt="image du Colorado Provençal">
+                    <div class="card-body">
+                        <h3 class="card-title">Le Colorado Provençal</h3>
+                        <ul>
+                            <li>Date : 22 février 2020</li>
+                            <li>Durée : 4H</li>
+                            <li>Niveau: <span class="text-warning font-weight-bold">moyen</span></li>
+                            <li>Départ : Rustrel à 10H</li>
+                            <li>Participants : 6 / 9</li>
+                        </ul>
             
-                    <article class="col-sm card mb-2 m-sm-2 article">
-                        <img src="./images/mont_ventoux.jpg" class="card-img-top" alt="image du Mont Ventoux">
-                        <div class="card-body">
-                            <h3 class="card-title">Le Mont Ventoux</h3>
-                            <ul>
-                                <li>Date : 25 février 2021</li>
-                                <li>Durée : 6H</li>
-                                <li>Niveau : <span class="text-danger font-weight-bold">soutenu</span></li>
-                                <li>Départ : Mont Serein à 10H</li>
-                                <li>Participants : 2 / 9</li>
-                            </ul>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="50"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <button type="button" class="home-button btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                    </article>
-                </div>
-
+                        <button type="button" class="home-button btn btn-block  btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                    </div>
+                </article>
             </div>
-
-        </section>
+            
+            <div class="col mb-3 mb-md-0">
+                <article class="article card">
+                    <img src="./images/mont_ventoux.jpg" class="card-img-top" alt="image du Mont Ventoux">
+                    <div class="card-body">
+                        <h3 class="card-title">Le Mont Ventoux</h3>
+                        <ul>
+                            <li>Date : 25 février 2021</li>
+                            <li>Durée : 6H</li>
+                            <li>Niveau : <span class="text-danger font-weight-bold">soutenu</span></li>
+                            <li>Départ : Mont Serein à 10H</li>
+                            <li>Participants : 2 / 9</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <button type="button" class="home-button btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                    </div>
+                </article>
+            </div>
+    
+        </div>
 
     </main>
 

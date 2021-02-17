@@ -1,18 +1,10 @@
-body {
-    color: rgb(0,0,0);
-    height: 100vh;
-    padding-top: 56px;
-
-}
-
-main {
+html {
     background-color: #e4e4e4;
 }
 
-abbr {
-    border: none;
-    text-decoration: none;
-
+body {
+    padding-top: 56px;
+    background-color: transparent;
 }
 
 a {
@@ -31,6 +23,12 @@ ul {
 textarea {
     resize: none;
 }
+
+/* MENU - start */
+abbr[title] {
+    text-decoration: none;
+}
+/* MENU - end */
 
 /* HEADER - start */
 .home {
@@ -54,15 +52,11 @@ textarea {
 /* HEADER - end */
 
 .article {
-    width: 95%; 
-    padding:0; 
+    /* width: 95%;  */
+    /* padding:0;  */
     box-shadow: 0 2px 5px #ccc;
 }
 
-.article-information p {
-    margin: 0;
-}
-
 .progress {
-    margin: 5% 0 5% 0;
+    margin: 20px 0;
 }
