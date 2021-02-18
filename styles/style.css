@@ -32,7 +32,7 @@ abbr[title] {
 
 /* HEADER - start */
 .home {
-    background-image: url("../images/20200928_145436.jpg");
+    background-image: url("../images/dentelle_de_montmirail.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,9 +51,7 @@ abbr[title] {
 }
 /* HEADER - end */
 
-.article {
-    /* width: 95%;  */
-    /* padding:0;  */
+.article, .home-button {
     box-shadow: 0 2px 5px #ccc;
 }
 
