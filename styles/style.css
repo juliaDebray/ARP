@@ -24,11 +24,9 @@ textarea {
     resize: none;
 }
 
-/* MENU - start */
 abbr[title] {
     text-decoration: none;
 }
-/* MENU - end */
 
 /* HEADER - start */
 .home {
@@ -51,6 +49,7 @@ abbr[title] {
 }
 /* HEADER - end */
 
+/* ARTICLE - start */
 .article, .home-button {
     box-shadow: 0 2px 5px #ccc;
 }
@@ -58,3 +57,4 @@ abbr[title] {
 .progress {
     margin: 20px 0;
 }
+/* ARTICLE - end */
