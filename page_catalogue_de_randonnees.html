@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>A.R.D - Association des randonneurs de Provence</title>
-    <meta name="description" content="Association de randonnée pédestre en Provence proposant des sorties en groupe">
+    <title>A.R.D - Catalogue de nos randonnées</title>
+    <meta name="description" content="Catalogue des randonnées proposées par l' Association des randonneurs de Provence">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
 
 <body>
 
-    <h1 class="d-none">Association des Randonneurs de Provence - Accueil</h1>
+    <h1 class="d-none">Association des Randonneurs de Provence - Randonnées</h1>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="./index.html">
@@ -25,17 +25,17 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Accueil <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./page_catalogue_de_randonnees.html">Catalogue d'activités</a>
+                    <a class="nav-link" href="./index.html">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./page_catalogue_de_randonnees.html">Catalogue d'activités <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./page_actualites.html">Actualités</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html#contacts">Contact</a>
+                    <a class="nav-link" href="#contacts">Contact</a>
                 </li>
             </ul>
         </div>
@@ -49,36 +49,11 @@
     </header>
 
     <main class="container p-3">
-
-        <div class="row text-justify m-0">
-            <article class="article col-sm card d-flex flex-md-row p-0">
-                <div class="card-body">
-                    <h3 class="card-title border-bottom border-secondary">Informations :</h3>
-                    <p class="font-weight-bold">Amis randonneurs, avant de valider votre inscription à une activité, vérifiez bien :</p>
-                    <ul class="list-group list-group-flush text-left">
-                        <li class="list-group-item">Que votre condition physique est en concordance avec le niveau de l’activité.</li>
-                        <li class="list-group-item">Que vous possédez l’équipement nécessaire au départ.</li>
-                        <li class="list-group-item">De respecter la chartre du randonneur.</li>
-                        <li class="list-group-item">De nous prévenir en cas de désistement.</li>
-                    </ul>
-                </div>
-                <div class="card-body">
-                    <h3 class="card-title border-bottom border-secondary">Niveaux :</h3>
-                    <ul>
-                        <li><span class="text-success font-weight-bold">FACILE</span> : dénivelé de 100 à 300 mètres</li>
-                        <li><span class="text-warning font-weight-bold">MOYEN</span> : dénivelé de 300 à 600 mètres</li>
-                        <li><span class="text-danger font-weight-bold">SOUTENU</span> : dénivelé de 500 à 800 mètres</li>
-                    </ul>
-                </div>
-            </article>
-        </div>
-
-        <h2 class="text-center mt-2">Nos prochaines sorties</h2>
-
+        <h2 class="text-center">Nos prochaines sorties</h2>
         <div class="row row-cols-1 row-cols-md-2 mb-md-3">
-            <div class="col mb-3 mb-md-0">
+            <div class="col mb-3">
                 <article class="article card">
-                    <img src="./images/colorado_provencale.jpg" class="card-img-top" alt="image du Colorado Provençal">
+                    <img src="./images/colorado_provencale.jpg" class="card-img-bottom" alt="image du Colorado Provençal">
                     <div class="card-body">
                         <h3 class="card-title">Le Colorado Provençal</h3>
                         <ul>
@@ -92,14 +67,14 @@
                         <div class="progress">
                             <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <button type="button" class="btn btn-block  btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                        <button type="button" class="home-button btn btn-block  btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
                     </div>
                 </article>
             </div>
             
-            <div class="col mb-3 mb-md-0">
+            <div class="col mb-3">
                 <article class="article card">
-                    <img src="./images/mont_ventoux.jpg" class="card-img-top" alt="image du Mont Ventoux">
+                    <img src="./images/mont_ventoux.jpg" class="card-img-bottom" alt="image du Mont Ventoux">
                     <div class="card-body">
                         <h3 class="card-title">Le Mont Ventoux</h3>
                         <ul>
@@ -110,17 +85,56 @@
                             <li>Participants : 2 / 9</li>
                         </ul>
                         <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <button type="button" class="btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                        <button type="button" class="home-button btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
                     </div>
                 </article>
             </div>
-    
+            
+            <div class="col mb-3">
+                <article class="article card">
+                    <img src="./images/canal_de_carpentras.jpg" class="card-img-bottom" alt="image du canal de Carpentras">
+                    <div class="card-body">
+                        <h3 class="card-title">Le Canal de Carpentras</h3>
+                        <ul>
+                            <li>Date : 27 février 2021</li>
+                            <li>Durée : 3H</li>
+                            <li>Niveau : <span class="text-success font-weight-bold">facile</span></li>
+                            <li>Départ : Carpentras à 10H</li>
+                            <li>Participants : 3 / 9</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <button type="button" class="home-button btn btn-block btn-info" data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col mb-3">
+                <article class="article card">
+                    <img src="./images/gorges_de_la_nesque2.jpg" class="card-img-bottom" alt="image des Gorgess de la Nesque">
+                    <div class="card-body">
+                        <h3 class="card-title">Les Gorges de la Nesque</h3>
+                        <ul>
+                            <li>Date : 1er mars 2021</li>
+                            <li>Durée : 4H30</li>
+                            <li>Niveau : <span class="text-danger font-weight-bold">soutenu</span></li>
+                            <li>Départ : Monieux à 10H</li>
+                            <li>Participants : 9 / 9</li>
+                        </ul>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <button type="button" class="home-button btn btn-block btn-danger" disabled data-toggle="modal" data-target="#contactModal">M'inscrire à la sortie</button>
+                    </div>
+                </article>
+            </div>
         </div>
-        <a href="./page_catalogue_de_randonnees.html" class="col btn btn-block btn-info home-button">Voir plus de randonnées</a>
-
-
     </main>
 
     <footer class="bg-dark text-white" id="contacts">

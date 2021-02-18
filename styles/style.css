@@ -1,27 +1,15 @@
-body {
-    color: rgb(0,0,0);
-    height: 100vh;
-    padding-top: 56px;
-
-}
-
-main {
+html {
     background-color: #e4e4e4;
 }
 
-abbr {
-    border: none;
-    text-decoration: none;
-
+body {
+    padding-top: 56px;
+    background-color: transparent;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-}
-
-p {
-    margin: 0;
 }
 
 li {
@@ -36,9 +24,13 @@ textarea {
     resize: none;
 }
 
+abbr[title] {
+    text-decoration: none;
+}
+
 /* HEADER - start */
 .home {
-    background-image: url("../images/20200928_145436.jpg");
+    background-image: url("../images/dentelle_de_montmirail.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,3 +48,13 @@ textarea {
     text-shadow: 0 0 5px black;
 }
 /* HEADER - end */
+
+/* ARTICLE - start */
+.article, .home-button {
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.progress {
+    margin: 20px 0;
+}
+/* ARTICLE - end */
