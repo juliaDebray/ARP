@@ -1,15 +1,24 @@
-Ceci est le site internet de l'ARD: Association des Randonneurs de Provence.
-C'est un projet responsive sur lequel je me suis entraînée à la manipulation de Bootstrap et au design d'un site internet.
+# A.R.P.
 
-Norme de nomage des commits :
+https://hinamoure.github.io/ARP/
 
+
+## Description
+
+Ceci est le site internet de l'A.R.P. : Association des Randonneurs de Provence. (association fictive)
+C'est un projet responsive sur lequel je me suis entraînée à l'utilisation de Bootstrap.
+
+
+## Norme de nomage des commits :
+
+- DESIGN : travail du visuel
 - FT  : nouvelle fonctionnalité 
 - OPTI : optimisation du code
 - BG : correction d'un bug
-- DOC : documentation
+
 
 Les commits seront en français.
-ils  commencerons par les abréviations précédemments sitées suivies d'un -
-ils doivent précisé la ou les techno utilisées, suivie(s) de :
+Ils  commenceront par les abréviations précédemments citées suivies d'un "-".
+Ils doivent préciser la ou les techno utilisées, suivie(s) d'un ":".
 
-exemple : FT - HTML: formulaire d'inscription à une activité
+exemple : `FT - HTML: formulaire d'inscription à une activité`
