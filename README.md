@@ -1,4 +1,5 @@
 Ceci est le site internet de l'ARD: Association des Randonneurs de Provence.
+C'est un projet responsive sur lequel je me suis entraînée à la manipulation de Bootstrap et au design d'un site internet.
 
 Norme de nomage des commits :
 
